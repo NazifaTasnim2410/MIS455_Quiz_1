@@ -14,50 +14,64 @@
             align-items: center;
             justify-content: space-between;
             padding: 20px;
+             padding-left: 200px;
+           
+            
+        }
+
+       
+        .container-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding: 20px;
             padding-left: 200px;
         }
 
         .left-side {
             flex: 1;
+            margin-bottom: 10%;
+            
+            
         }
 
         .right-side {
             flex: 1;
             text-align: center;
+            
         }
 
         .image {
-            max-width: 500px;
-            height: auto;
+            width: 650px;
+            height: 400px;
+            margin-right: 10px;
+            margin-left: 10px;
+            
          
         }
         .btn {
-            padding: 10px;
-            color: blue;
+            display: inline-block;
+            padding: 10px 45px;
+            background-color: #fd9c6b;
+            color: #fff;
+            border-radius: 0;
+            border: 1px solid #fd9c6b;
+            
         }
+
+
+        
+
+
     </style>
 </head>
 <body>
     <div class="container">
+
+    
         <div class="left-side">
       
-            <h1>Best Quality<br>Pillow</h1>
-            <p>Get the best pillow for your home</p>
-            <button class="btn">Buy Now</button>
-     
-            
-        </div>
-        <div class="right-side">
-            <img class="image" src="pic1.jpg" alt="Best Pillow">
-        </div>
-
- 
-        
-    </div>
-
-    <div class="container">
-      <div class="left-side">
-    
           <h1>Best Quality<br>Pillow</h1>
           <p>Get the best pillow for your home</p>
           <button class="btn">Buy Now</button>
@@ -67,9 +81,27 @@
       <div class="right-side">
           <img class="image" src="pic1.jpg" alt="Best Pillow">
       </div>
+      </div>
+               
+  
 
+    <div class="container-2">
+      <div class="left-side">
+
+           <h3>Started from $10</h3>
+          <h1>Best Quality<br>Pillow</h1>
+          <p>Get the best pillow for your home</p>
+          <button class="btn">Buy Now</button>
+   
+          
+      </div>
+      <div class="right-side">
+        
+          <img class="image" src="pic2.jpg" alt="Best Pillow"></div>
+        
+  
+      </div>
 
       
-  </div>
 </body>
 </html>
